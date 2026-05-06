@@ -1,0 +1,17 @@
+{
+  "_note": "Placeholder values: 0.0 = any number, '...' = any string. state must be Accumulate | Wait | Distribute.",
+  "symbol": "...",
+  "state": "...",
+  "stateSince": "...",
+  "recentFlips": [
+    {
+      "from": "...",
+      "to": "...",
+      "date": "..."
+    }
+  ],
+  "bandValues": {
+    "fast": 0.0,
+    "slow": 0.0
+  }
+}

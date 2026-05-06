@@ -1,0 +1,28 @@
+{
+  "_note": "Placeholder values: 0.0 = any number, true/false = boolean. oos.validated should be true for validated assets.",
+  "asset": "...",
+  "interval": "...",
+  "period": "...",
+  "mode": "...",
+  "performance": {
+    "totalReturn": 0.0,
+    "buyHoldReturn": 0.0,
+    "delta": 0.0,
+    "winRate": 0.0,
+    "profitFactor": 0.0,
+    "sharpeRatio": 0.0,
+    "maxDrawdown": 0.0,
+    "tradeCount": 0
+  },
+  "oos": {
+    "return": 0.0,
+    "winRate": 0.0,
+    "tradeCount": 0,
+    "validated": false
+  },
+  "filterStats": {
+    "totalSignals": 0,
+    "executed": 0,
+    "rejected": 0
+  }
+}

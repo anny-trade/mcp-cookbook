@@ -1,0 +1,38 @@
+{
+  "_note": "Placeholder values: 0 = any integer, 0.0 = any number, '...' = any string.",
+  "fearGreed": {
+    "value": 0,
+    "classification": "..."
+  },
+  "risk": {
+    "market": 0,
+    "onChain": 0,
+    "macro": 0
+  },
+  "btc": {
+    "price": 0.0,
+    "rsi14": 0.0,
+    "ema20": 0.0,
+    "ema50": 0.0,
+    "ema200": 0.0,
+    "dominance": 0.0,
+    "signal": "..."
+  },
+  "derivatives": {
+    "btcFundingRate8h": 0.0,
+    "btcFundingRateAnnualized": 0.0,
+    "ethFundingRate8h": 0.0,
+    "liquidations24h": "..."
+  },
+  "etfFlows": {
+    "daily": 0.0,
+    "7dNet": 0.0,
+    "streak": "..."
+  },
+  "onChain": {
+    "mvrvZScore": 0.0,
+    "nupl": 0.0,
+    "coinbasePremium": 0.0,
+    "exchangeNetflow": "..."
+  }
+}

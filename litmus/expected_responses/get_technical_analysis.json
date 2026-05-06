@@ -1,0 +1,35 @@
+{
+  "_note": "Placeholder values: 0.0 = any number, '...' = any string. Check field presence, not values.",
+  "symbol": "...",
+  "timeframe": "...",
+  "momentum": {
+    "rsi": {
+      "value": 0.0,
+      "signal": "..."
+    },
+    "macd": {
+      "macd": 0.0,
+      "signal": 0.0,
+      "histogram": 0.0,
+      "trend": "..."
+    },
+    "adx": {
+      "value": 0.0,
+      "plus_di": 0.0,
+      "minus_di": 0.0,
+      "strength": "..."
+    }
+  },
+  "trend": {
+    "ema20": 0.0,
+    "ema50": 0.0,
+    "ema200": 0.0,
+    "priceVsEma200": "..."
+  },
+  "volume": {
+    "obv": "...",
+    "vwap": 0.0,
+    "vroc": 0.0,
+    "volumeTrend": "..."
+  }
+}
