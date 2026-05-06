@@ -15,6 +15,12 @@ two-step flow for every order:
 A `MAX_CHAT_ORDER_USDT` cap is enforced server-side — the platform will reject orders
 above this threshold regardless of what you ask. SPOT market only — no futures, no margin.
 
+## Supported Exchanges
+
+Order placement requires a **Full-mode** exchange: Binance, Bybit, OKX, Kraken, KuCoin,
+Gate.io, MEXC, and others. Portfolio-mode exchanges (balance view only) cannot place orders.
+Full list and setup guides: [setup/supported-exchanges.md](../../setup/supported-exchanges.md)
+
 ## Auth Required
 
 Yes — exchange mutation tools require OAuth (not just PAT). Use the `/v1/full` endpoint

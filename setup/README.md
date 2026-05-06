@@ -30,6 +30,12 @@ This is the primary endpoint. It supports both OAuth tokens and Personal Access 
 Run the verification prompts in [verify-connection.md](verify-connection.md) to confirm
 the tools are responding correctly.
 
+## Supported Exchanges
+
+For live trading tools (`execute_market_order`, `cancel_order`), you need a connected
+Full-mode exchange: Binance, Bybit, OKX, Kraken, KuCoin, Gate.io, MEXC, and others.
+Details and connection instructions: [supported-exchanges.md](supported-exchanges.md)
+
 ## Rate Limits
 
 | Tier | Per Minute | Per Day |

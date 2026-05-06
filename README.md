@@ -11,6 +11,11 @@ execute orders — all through plain English.
 
 **MCP server endpoint:** `https://mcp.anny.trade/mcp`
 **Auth:** OAuth 2.1 + PKCE (browser) or Personal Access Token (CLI / Claude Code)
+**Exchanges:** Binance, Bybit, OKX, Kraken, KuCoin, Gate.io, MEXC, and 70+ more via CCXT
+
+> **Disclaimer:** Examples and research in this repo are for educational purposes only.
+> Nothing here is financial advice. Backtests are simulations — past performance does not
+> predict future results. Full terms: [DISCLAIMER.md](DISCLAIMER.md)
 
 > **CFO Anny Line** is Anny's proprietary trend-state indicator. It classifies any asset as
 > Accumulate, Wait, or Distribute — and every flip event is timestamped and explainable.

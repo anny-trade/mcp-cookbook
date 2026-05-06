@@ -33,6 +33,15 @@ Findings from a systematic strategy research session conducted on 2026-04-26.
 | [cfo-line-regime-analysis.md](cfo-line-regime-analysis.md) | Walk-forward per-regime confidence scores |
 | [portfolio-construction.md](portfolio-construction.md) | Signal correlation matrix, portfolio selection |
 
+## Disclaimer
+
+These findings are published for reproducibility and educational purposes.
+**Nothing here is financial advice or a trading recommendation.**
+Backtests are simulations on historical data — the same strategies may underperform or lose
+money in different market conditions. Leverage-adjusted results (including the 6.24% avg
+monthly portfolio figure) used 2–3× leverage; 58% of months in that portfolio were negative.
+Full terms: [DISCLAIMER.md](../DISCLAIMER.md)
+
 ## Reproducibility
 
 All backtests can be reproduced using this cookbook. The scripts in `scripts/backtest/`
