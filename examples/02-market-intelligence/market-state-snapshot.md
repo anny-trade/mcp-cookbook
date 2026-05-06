@@ -1,4 +1,4 @@
-# Market State Snapshot
+# What are the current crypto market conditions and sentiment?
 
 A single call that covers Fear & Greed, funding rates, ETF flows, and on-chain metrics.
 

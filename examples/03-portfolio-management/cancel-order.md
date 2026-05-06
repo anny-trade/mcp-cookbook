@@ -1,4 +1,4 @@
-# Cancel an Order
+# How do I cancel a pending crypto order?
 
 Cancel a specific pending order. Always get the order ID from `get_open_orders` first.
 

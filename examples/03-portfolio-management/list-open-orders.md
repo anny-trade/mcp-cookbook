@@ -1,4 +1,4 @@
-# List Open Orders
+# How do I see all my open crypto orders?
 
 See all pending (unfilled) orders across connected exchanges, with optional filters.
 

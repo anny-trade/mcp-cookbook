@@ -1,4 +1,4 @@
-# Fear & Greed Context
+# What does the current Fear and Greed reading mean historically?
 
 Multi-turn: get the current reading, then find historical periods with similar conditions.
 

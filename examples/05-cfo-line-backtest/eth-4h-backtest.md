@@ -1,4 +1,4 @@
-# ETH 4h CFO Line Backtest
+# How does CFO Line perform on Ethereum 4h?
 
 Non-default interval and period — 4-hour chart over 9 months.
 

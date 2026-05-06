@@ -1,4 +1,4 @@
-# Portfolio Review Workflow
+# How do I do a complete monthly crypto portfolio review with AI?
 
 Monthly review: active signals → stress test → regime analysis → synthesis.
 

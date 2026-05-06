@@ -1,4 +1,4 @@
-# EMA Crossover Strategy
+# How do I backtest an EMA crossover strategy on Bitcoin?
 
 The EMA 9/21 crossover was the most consistently profitable strategy type found in the research —
 93% of tests across 10 assets beat buy-and-hold on the daily chart.

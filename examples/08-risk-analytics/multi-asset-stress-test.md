@@ -1,4 +1,4 @@
-# Multi-Asset Stress Test
+# How does my portfolio perform if Bitcoin drops 40% and altcoins follow?
 
 Specify exact percentages per asset using the structured input format.
 

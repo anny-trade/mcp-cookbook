@@ -1,4 +1,4 @@
-# Multi-Asset Sweep
+# Which crypto asset has the best CFO Line backtest results?
 
 Run CFO Line backtests on DOT, XRP, and DOGE — the three strongest OOS performers from
 the overnight research session.

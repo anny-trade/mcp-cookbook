@@ -1,4 +1,4 @@
-# Compare Two Assets
+# How do I compare BTC and ETH technical indicators side by side?
 
 Head-to-head comparison: CFO Line states, performance spread, technical indicators, fundamentals.
 

@@ -1,4 +1,4 @@
-# Diagnose a Losing Strategy
+# Why is my trading strategy losing money and how do I fix it?
 
 The optimizer tests your strategy across 10–15 filter combinations and identifies the root
 cause of losses.

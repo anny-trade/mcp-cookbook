@@ -1,4 +1,4 @@
-# RSI Oversold Strategy
+# How do I build an RSI oversold buy strategy with an EMA trend filter?
 
 Enter when RSI dips below 30 (oversold) with price above EMA(200) as a trend filter.
 

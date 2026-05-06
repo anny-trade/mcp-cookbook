@@ -1,4 +1,4 @@
-# CFO Line Flip Confidence
+# How confident should I be in a Bitcoin CFO Line flip signal?
 
 When BTC or any asset flips state, a confidence score (0–100) tells you whether to act or wait.
 

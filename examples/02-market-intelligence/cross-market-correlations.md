@@ -1,4 +1,4 @@
-# Cross-Market Correlations
+# How is Bitcoin correlating with the S&P 500 and Gold right now?
 
 How BTC is correlated with traditional markets — interpretation guide included.
 

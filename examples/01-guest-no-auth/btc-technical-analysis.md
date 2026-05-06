@@ -1,4 +1,4 @@
-# BTC Technical Analysis
+# How do I get RSI, MACD, and ADX for Bitcoin with no account?
 
 Get momentum, trend, and volume indicators for Bitcoin — no account required.
 

@@ -1,4 +1,4 @@
-# List Active Signals
+# What trading signals do I have active right now?
 
 Get all active trading signals and positions with P&L and automation state.
 

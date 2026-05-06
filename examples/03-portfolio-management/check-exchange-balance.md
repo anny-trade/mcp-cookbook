@@ -1,4 +1,4 @@
-# Check Exchange Balance
+# How do I check my crypto balances across all connected exchanges?
 
 Query available balances across all connected exchanges.
 

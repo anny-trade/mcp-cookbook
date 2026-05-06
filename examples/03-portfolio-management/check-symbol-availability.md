@@ -1,4 +1,4 @@
-# Check Symbol Availability
+# Is this cryptocurrency available to trade on my exchange?
 
 Confirm an asset is available for trading on your connected exchanges before placing an order.
 

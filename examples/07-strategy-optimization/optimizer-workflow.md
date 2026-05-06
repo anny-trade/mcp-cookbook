@@ -1,4 +1,4 @@
-# Optimizer Workflow
+# How do I diagnose and optimize a losing crypto trading strategy?
 
 3-turn workflow: backtest to see the problem → optimize to get the prescription →
 validate to confirm the improvement is real.

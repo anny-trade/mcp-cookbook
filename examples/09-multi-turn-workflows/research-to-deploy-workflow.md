@@ -1,4 +1,4 @@
-# Research to Deploy Workflow
+# How do I go from strategy research to a live trading bot in one session?
 
 The flagship workflow: scan live conditions → backtest → optimize → validate → deploy.
 This is the pipeline used to generate the validated strategies in the research section.

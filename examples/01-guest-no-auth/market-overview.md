@@ -1,4 +1,4 @@
-# Market Overview
+# What is the current crypto market trend and momentum?
 
 Get a cross-market snapshot: BTC regime, S&P 500 / Gold correlations, Fear & Greed context.
 

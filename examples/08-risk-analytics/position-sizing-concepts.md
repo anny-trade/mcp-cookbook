@@ -1,4 +1,4 @@
-# Position Sizing Concepts
+# How should I size positions to manage risk in a crypto portfolio?
 
 Position sizing tools are on the roadmap. This file covers the concepts and how to use
 current tools as a bridge.

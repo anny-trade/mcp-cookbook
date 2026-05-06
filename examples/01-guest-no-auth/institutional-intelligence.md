@@ -1,4 +1,4 @@
-# Institutional Intelligence
+# What are the latest Bitcoin ETF flows and institutional whale activity?
 
 ETF flows, corporate treasury holdings, whale activity — the smart money view.
 

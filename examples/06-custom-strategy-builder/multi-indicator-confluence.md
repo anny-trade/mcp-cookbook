@@ -1,4 +1,4 @@
-# Multi-Indicator Confluence
+# How do I build a strategy that requires RSI, EMA, and MACD to align?
 
 RSI + EMA trend + MACD histogram all aligned. The highest alpha strategy found in research
 (+104% delta on ADA, +27% on BNB).

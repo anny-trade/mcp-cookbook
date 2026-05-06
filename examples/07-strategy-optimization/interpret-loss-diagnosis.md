@@ -1,4 +1,4 @@
-# Interpret the Loss Diagnosis
+# What do whipsaw, conviction loss, and counter-trend mean in strategy diagnosis?
 
 What each loss category means and what to do about it.
 

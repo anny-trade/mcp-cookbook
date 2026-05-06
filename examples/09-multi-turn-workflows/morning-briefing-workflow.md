@@ -1,4 +1,4 @@
-# Morning Briefing Workflow
+# How do I get a full crypto market briefing every morning with AI?
 
 A 4-turn daily ritual: market conditions → CFO state check → signal review → decision.
 

@@ -1,4 +1,4 @@
-# Portfolio Scenario: BTC Crash
+# What happens to my crypto portfolio if Bitcoin crashes 40%?
 
 What happens to your portfolio if BTC drops 40%?
 

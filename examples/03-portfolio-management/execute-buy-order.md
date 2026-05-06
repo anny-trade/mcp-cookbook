@@ -1,4 +1,4 @@
-# Execute a Buy Order
+# How do I buy crypto using AI with a preview before executing?
 
 Buy crypto at market price using the mandatory 2-step preview → confirm flow.
 

@@ -1,4 +1,4 @@
-# Analyze Signal with CFO Line
+# Does this trading signal align with the current CFO Line regime?
 
 Overlay the CFO Anny Line on a signal's asset, using the signal's native timeframe.
 

@@ -1,4 +1,4 @@
-# BTC Daily CFO Line Backtest
+# How profitable is the CFO Line on Bitcoin daily over 1 year?
 
 Run the CFO Line on BTC at daily resolution over the last year. Full response shape documented.
 

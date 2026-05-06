@@ -1,4 +1,4 @@
-# Update Signal Targets
+# How do I change the take-profit or stop-loss on an active signal?
 
 Update a target price, stop-loss, or entry price for a signal. DB-only — no exchange orders.
 

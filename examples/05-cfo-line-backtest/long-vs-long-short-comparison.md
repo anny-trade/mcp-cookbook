@@ -1,4 +1,4 @@
-# Long vs Long-Short Mode Comparison
+# Should I use long-only or long-short mode for CFO Line backtesting?
 
 Compare CFO Line in `long` mode vs `long_short` mode on the same asset and timeframe.
 

@@ -1,4 +1,4 @@
-# Toggle Auto-Invest
+# How do I enable or disable auto-invest on a trading signal?
 
 Enable or disable auto-buy for a signal. DB-only — no exchange side-effect.
 

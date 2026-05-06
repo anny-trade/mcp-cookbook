@@ -1,4 +1,4 @@
-# ETF Flow Analysis
+# What are today's Bitcoin ETF inflows and outflows by issuer?
 
 Per-issuer 7-day and YTD flow breakdown — who is buying and who is selling.
 

@@ -1,4 +1,4 @@
-# Deploy Strategy as Bot
+# How do I turn a backtested strategy into a live trading bot?
 
 The full pipeline: research → scan → backtest → optimize → deploy.
 

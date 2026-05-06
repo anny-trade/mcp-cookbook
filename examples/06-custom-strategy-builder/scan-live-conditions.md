@@ -1,4 +1,4 @@
-# Scan Live Conditions
+# Which assets currently meet my strategy entry conditions?
 
 Check if your strategy conditions are met right now against live market data — for free.
 
