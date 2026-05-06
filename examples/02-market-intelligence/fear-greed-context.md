@@ -36,8 +36,9 @@ Extreme Greed), and how many consecutive days the market has been in this zone.
 and on-chain metrics. For each matched period: the date, the conditions at the time, and what
 BTC did in the following 7 days, 30 days, and 90 days.
 
-Note: `find_historical_pattern` is currently accumulating data and returns a "coming soon"
-response for some asset histories. The full pattern-matching library will expand over 2026.
+Note: `find_historical_pattern` requires sufficient historical data for the conditions you query.
+For best results, ask about well-documented periods (extreme fear/greed) rather than narrow
+specific parameter combinations. The pattern library grows as more market cycles complete.
 
 ## Expected Response Shape
 

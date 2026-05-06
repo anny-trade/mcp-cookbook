@@ -55,7 +55,7 @@ All read-only and mutation tools are free:
 
 | Tool | Credits | Min Tier | Notes |
 |------|---------|----------|-------|
-| `run_cfo_line_backtest` | **100** | FREE | Per run |
+| `run_cfo_line_backtest` | **100** | PRO | Per run |
 | `backtest_custom_strategy` | Included in message cost | FREE | Billed as LLM usage (~100 cr equivalent) |
 | `run_optimizer` | **900** | PRO | CFO Line optimizer |
 | `optimize_custom_strategy` | **900** | PRO | Custom strategy optimizer |
@@ -75,8 +75,8 @@ Ask Anny conversations are billed based on actual token usage:
 ## FREE Tier Limits
 
 - 5 Ask Anny conversations per day (`ASKANNY_FREE_DAILY_LIMIT`)
-- No backtesting (CFO Line or custom)
-- No optimizer
+- No backtesting (CFO Line or custom) — requires PRO
+- No optimizer — requires PRO
 - 1,000 credits/month for LLM usage
 
 ## Source of Truth

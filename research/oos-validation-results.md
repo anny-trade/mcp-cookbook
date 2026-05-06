@@ -36,7 +36,7 @@ Treat as directional but not statistically robust.
 | BNB | 1d | 0% | Same — confirmation candles filtered all entries |
 | SOL | 1d | 0% | Same |
 | ETH | 1h | -10.79% | Heavy overfit in training period |
-| AVAX | 1h | -21.98% | Mean-reversion strategy collapsed on intraday |
+| AVAX | 1h | -21.98% | CFO Line strategy overfit on 1h intraday noise |
 | ADA | 1h | -27.75% | Severely negative — 1h unsuitable for ADA CFO Line |
 
 ## Custom Strategy Validations (Multi-Strategy Phase)
