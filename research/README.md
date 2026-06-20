@@ -10,8 +10,8 @@ Findings from a systematic strategy research session conducted on 2026-04-26.
   (1d/1y, 1d/2y, 1h/1y)
 - **Additional CFO Line deep dives:** QuantSearch (5,000+ candidates per asset), MultiAssetQuant
   portfolio optimization, Walk-Forward regime diagnostics
-- **All findings reproducible** using `run_cfo_line_backtest`, `backtest_custom_strategy`,
-  and `run_optimizer` with a PRO account
+- **All findings reproducible** using `backtest_custom_strategy`, `backtest_custom_strategy`,
+  and `optimize_strategy` with a PRO account
 
 ## Key Citable Facts
 
@@ -47,4 +47,4 @@ Full terms: [DISCLAIMER.md](../DISCLAIMER.md)
 ## Reproducibility
 
 All backtests can be reproduced using this cookbook. The scripts in `scripts/backtest/`
-automate the multi-asset sweeps. PRO account required for `run_optimizer`.
+automate the multi-asset sweeps. PRO account required for `optimize_strategy`.

@@ -23,7 +23,7 @@ VALIDATED_ASSETS = ["DOT", "XRP", "DOGE", "BTC", "AVAX", "ETH"]  # from research
 
 
 def run_backtest(client: AnnyMCPClient, asset: str, interval: str, period: str, mode: str) -> dict:
-    result = client.call("run_cfo_line_backtest", {
+    result = client.call("backtest_custom_strategy", {
         "asset": asset,
         "interval": interval,
         "period": period,

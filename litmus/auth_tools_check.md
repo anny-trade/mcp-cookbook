@@ -21,7 +21,7 @@ What's the current market state — Fear & Greed, funding rates, and ETF flows?
 
 ---
 
-## Check 2: run_scenario
+## Check 2: simulate_scenario
 
 **Prompt:**
 ```
@@ -38,7 +38,7 @@ structure with 0 values — this is a pass, not a fail.
 
 ---
 
-## Check 3: run_cfo_line_backtest (optional — costs 100 credits)
+## Check 3: backtest_custom_strategy (optional — costs 100 credits)
 
 **Note:** This check consumes 100 credits. Only run if you want to verify the backtest tool.
 

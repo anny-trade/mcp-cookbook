@@ -17,7 +17,7 @@ SMA, or spread threshold.
 
 ## Cost
 
-`run_optimizer` and `optimize_custom_strategy`: **900 credits** each | Requires PRO tier
+`optimize_strategy` and `optimize_strategy`: **900 credits** each | Requires PRO tier
 
 ## Free Pre-Scan
 

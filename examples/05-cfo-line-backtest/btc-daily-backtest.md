@@ -10,7 +10,7 @@ Backtest the CFO Line on BTC using the daily chart over the last year.
 
 ## Tools Used
 
-- `run_cfo_line_backtest` — asset: `BTC`, interval: `1d`, period: `1y`, mode: `long`
+- `backtest_custom_strategy` — asset: `BTC`, interval: `1d`, period: `1y`, mode: `long`
 
 ## Auth Required
 

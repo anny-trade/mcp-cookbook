@@ -4,7 +4,7 @@ Portfolio stress testing: how does your portfolio hold up in a crash scenario?
 
 ## Live Tools
 
-- `run_scenario` — portfolio stress test against a scenario string or structured asset array
+- `simulate_scenario` — portfolio stress test against a scenario string or structured asset array
 
 ## Planned Tools (Roadmap)
 

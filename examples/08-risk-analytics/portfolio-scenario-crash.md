@@ -10,7 +10,7 @@ What happens to my portfolio if BTC crashes 40% from current price?
 
 ## Tools Used
 
-- `run_scenario` — scenario: `"BTC drops 40%"`
+- `simulate_scenario` — scenario: `"BTC drops 40%"`
 
 ## Auth Required
 

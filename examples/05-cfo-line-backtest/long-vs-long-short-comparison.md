@@ -11,8 +11,8 @@ Which performs better on risk-adjusted returns?
 
 ## Tools Used (2 calls)
 
-- `run_cfo_line_backtest` — asset: `DOGE`, interval: `1d`, period: `1y`, mode: `long`
-- `run_cfo_line_backtest` — asset: `DOGE`, interval: `1d`, period: `1y`, mode: `long_short`
+- `backtest_custom_strategy` — asset: `DOGE`, interval: `1d`, period: `1y`, mode: `long`
+- `backtest_custom_strategy` — asset: `DOGE`, interval: `1d`, period: `1y`, mode: `long_short`
 
 ## Auth Required
 

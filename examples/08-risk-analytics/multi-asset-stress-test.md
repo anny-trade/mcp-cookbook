@@ -11,7 +11,7 @@ Show me the before/after and which position takes the most damage.
 
 ## Tools Used
 
-- `run_scenario` — assets: structured array
+- `simulate_scenario` — assets: structured array
 
 ## Structured Input Format
 

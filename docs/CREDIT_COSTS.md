@@ -21,7 +21,7 @@ All read-only and mutation tools are free:
 `get_institutional_intelligence`
 
 **Market Intelligence:**
-`get_market_state` · `get_market_analysis` · `run_scenario` · `find_historical_pattern`
+`get_market_state` · `get_market_analysis` · `simulate_scenario` · `find_historical_pattern`
 
 **Tax & Holdings:**
 `get_tax_status` · `get_tax_holdings`
@@ -32,7 +32,7 @@ All read-only and mutation tools are free:
 `update_signal_target` · `cancel_pending_order` · `place_take_profit` · `place_trailing_stop`
 
 **Bot Management:**
-`list_bots` · `get_bot_config` · `get_bot_fires` · `pause_bot` · `restart_bot` · `create_bot_from_strategy`
+`list_bots` · `get_bot_config` · `get_bot_fires` · `pause_bot` · `restart_bot` · `deploy_strategy_as_bot`
 
 **Community:**
 `list_communities` · `get_community_pnl` · `allocate_community_investment`
@@ -41,13 +41,13 @@ All read-only and mutation tools are free:
 `check_symbol_availability` · `get_exchange_balance` · `get_open_orders` · `execute_market_order` · `cancel_order`
 
 **Trading Ideas:**
-`get_trading_idea_analysis`
+`get_trading_idea_detail`
 
 **Custom Strategy (scan is free; backtest is billed as LLM usage):**
 `scan_custom_signals` · `prescan_custom_strategy`
 
 **Support & Knowledge:**
-`ask_agent` · `check_user_health` · `create_support_ticket` · `get_ticket_status` ·
+`ask_anny` · `check_user_health` · `create_support_ticket` · `get_ticket_status` ·
 `record_resolution_feedback` · `claim_welcome_bonus` · `get_exchange_setup_guide` ·
 `log_skill_gap` · `submit_skill_request` · `submit_bug_report`
 
@@ -55,10 +55,10 @@ All read-only and mutation tools are free:
 
 | Tool | Credits | Min Tier | Notes |
 |------|---------|----------|-------|
-| `run_cfo_line_backtest` | **100** | PRO | Per run |
+| `backtest_custom_strategy` | **100** | PRO | Per run |
 | `backtest_custom_strategy` | Included in message cost | FREE | Billed as LLM usage (~100 cr equivalent) |
-| `run_optimizer` | **900** | PRO | CFO Line optimizer |
-| `optimize_custom_strategy` | **900** | PRO | Custom strategy optimizer |
+| `optimize_strategy` | **900** | PRO | CFO Line optimizer |
+| `optimize_strategy` | **900** | PRO | Custom strategy optimizer |
 
 ## LLM-Billed Tools
 

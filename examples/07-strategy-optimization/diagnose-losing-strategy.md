@@ -34,7 +34,7 @@ recommend the best filter settings.
 
 ### Tools Used
 
-- `run_optimizer` — asset: `ETH`, interval: `1d`, period: `1y`, mode: `long`
+- `optimize_strategy` — asset: `ETH`, interval: `1d`, period: `1y`, mode: `long`
 
 ### Auth Required
 

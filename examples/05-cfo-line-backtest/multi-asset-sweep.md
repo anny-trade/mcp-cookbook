@@ -12,9 +12,9 @@ Rank them by out-of-sample return.
 
 ## Tools Used (3 calls)
 
-- `run_cfo_line_backtest` — asset: `DOT`, interval: `1d`, period: `1y`, mode: `long`
-- `run_cfo_line_backtest` — asset: `XRP`, interval: `1d`, period: `1y`, mode: `long`
-- `run_cfo_line_backtest` — asset: `DOGE`, interval: `1d`, period: `1y`, mode: `long`
+- `backtest_custom_strategy` — asset: `DOT`, interval: `1d`, period: `1y`, mode: `long`
+- `backtest_custom_strategy` — asset: `XRP`, interval: `1d`, period: `1y`, mode: `long`
+- `backtest_custom_strategy` — asset: `DOGE`, interval: `1d`, period: `1y`, mode: `long`
 
 ## Auth Required
 

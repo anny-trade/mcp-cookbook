@@ -29,7 +29,7 @@ stop-loss that also have CFO Line in Distribute.
 If BTC drops 30%, what does my portfolio look like? Show per-position impact.
 ```
 
-**Tools:** `run_scenario` — scenario: `"BTC drops 30%"`
+**Tools:** `simulate_scenario` — scenario: `"BTC drops 30%"`
 
 **What to look for:** Total portfolio drawdown above 40% suggests overexposure. Any single
 position whose crash value drops below your original USDT allocation → unrealized loss becomes

@@ -7,7 +7,7 @@ or **Distribute** (weakness). State transitions are the trade signals.
 ## Validated Research Findings
 
 The research in this cookbook tested the CFO Line across 12 assets over multiple timeframes.
-Key findings (all reproducible using `run_cfo_line_backtest` and `run_optimizer`):
+Key findings (all reproducible using `backtest_custom_strategy` and `optimize_strategy`):
 
 | Asset | Timeframe | OOS Return | Verdict |
 |-------|-----------|-----------|---------|
@@ -27,8 +27,8 @@ buy-and-hold. On 1h, only 25% do. Default to daily unless you have a specific re
 
 ## Cost
 
-`run_cfo_line_backtest`: **100 credits** per run
-`run_optimizer`: **900 credits** per run (PRO tier required)
+`backtest_custom_strategy`: **100 credits** per run
+`optimize_strategy`: **900 credits** per run (PRO tier required)
 
 ## Examples
 

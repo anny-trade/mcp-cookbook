@@ -10,7 +10,7 @@ How does the CFO Line perform on ETH using the 4-hour chart over the last 9 mont
 
 ## Tools Used
 
-- `run_cfo_line_backtest` — asset: `ETH`, interval: `4h`, period: `9m`, mode: `long`
+- `backtest_custom_strategy` — asset: `ETH`, interval: `4h`, period: `9m`, mode: `long`
 
 ## Auth Required
 

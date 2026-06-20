@@ -13,7 +13,7 @@ Backtest the CFO Line on BTC daily over the last year — long mode only.
 
 ### Tools Used
 
-- `run_cfo_line_backtest` — 100 credits
+- `backtest_custom_strategy` — 100 credits
 
 ### What to Look For
 
@@ -34,7 +34,7 @@ filter settings.
 
 ### Tools Used
 
-- `run_optimizer` — 900 credits (PRO required)
+- `optimize_strategy` — 900 credits (PRO required)
 
 ### What to Look For
 
@@ -56,7 +56,7 @@ candles and equityCurveSMA of 20. Show me the out-of-sample result.
 
 ### Tools Used
 
-- `run_cfo_line_backtest` — 100 credits
+- `backtest_custom_strategy` — 100 credits
 
 ### What to Look For
 

@@ -78,7 +78,7 @@ If the improvement potential is LOW, optimization may not be worth 900 credits.
 Run the full optimizer on this strategy. Diagnose and prescribe the best filter settings.
 ```
 
-**Tools:** `optimize_custom_strategy`
+**Tools:** `optimize_strategy`
 **Credits:** 900
 
 **What you learn:** Optimized Sharpe vs baseline. The prescription (specific filter values).
@@ -94,7 +94,7 @@ Deploy this strategy as a bot on Binance SPOT with $300 USDT per trade, using th
 optimized settings.
 ```
 
-**Tools:** `create_bot_from_strategy`
+**Tools:** `deploy_strategy_as_bot`
 **Credits:** 0
 
 **Result:** Bot created in paused state with your validated settings. Activate from

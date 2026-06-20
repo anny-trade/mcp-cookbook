@@ -6,8 +6,8 @@ Zero setup required beyond adding the MCP URL.
 ## Tools in This Section
 
 All guest tools: `get_technical_analysis`, `get_anny_line_status`, `get_flip_intelligence`,
-`compare_assets`, `get_institutional_intelligence`, `get_market_analysis`, `ask_agent`,
-`get_trading_idea_analysis`
+`compare_assets`, `get_institutional_intelligence`, `get_market_analysis`, `ask_anny`,
+`get_trading_idea_detail`
 
 ## Prerequisites
 

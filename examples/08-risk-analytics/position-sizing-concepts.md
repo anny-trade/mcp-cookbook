@@ -5,7 +5,7 @@ current tools as a bridge.
 
 ## Current Capability (Available Now)
 
-Use `run_scenario` in reverse: estimate how much of an asset you can hold such that a
+Use `simulate_scenario` in reverse: estimate how much of an asset you can hold such that a
 worst-case scenario stays within your risk tolerance.
 
 **Prompt example:**

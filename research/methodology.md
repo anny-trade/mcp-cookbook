@@ -14,7 +14,7 @@ Binance renamed to POL)
 
 ## Phase 1: Strategy Discovery
 
-**Tool:** `run_cfo_line_backtest` across 3 timeframe/period combos
+**Tool:** `backtest_custom_strategy` across 3 timeframe/period combos
 **Scope:** 12 assets × 3 combos = 36 backtests
 **OOS split:** Final 20% of each period held out as unseen validation data
 
@@ -27,7 +27,7 @@ Validation criteria:
 
 ## Phase 2: QuantSearch Deep Dives
 
-**Tool:** `run_optimizer` (CFO Line variant testing)
+**Tool:** `optimize_strategy` (CFO Line variant testing)
 **Scope:** 5,000+ candidate parameter combinations per asset on 1h
 **Focus assets:** BTC, ETH, SOL, XRP, LINK
 

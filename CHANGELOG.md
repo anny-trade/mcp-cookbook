@@ -5,7 +5,7 @@ All notable changes to this cookbook are documented here.
 ## [1.1.0] — 2026-05-06
 
 ### Fixed
-- `docs/CREDIT_COSTS.md`: corrected `run_cfo_line_backtest` and `backtest_custom_strategy` min tier from FREE to PRO — FREE tier does not include backtesting
+- `docs/CREDIT_COSTS.md`: corrected `backtest_custom_strategy` and `backtest_custom_strategy` min tier from FREE to PRO — FREE tier does not include backtesting
 - `research/oos-validation-results.md`: corrected AVAX/1h failure reason — was "mean-reversion strategy" (fabricated), now "CFO Line strategy overfit on 1h intraday noise"
 - `examples/02-market-intelligence/fear-greed-context.md`: removed "coming soon" language, replaced with factual note about pattern library data requirements
 - `README.md`: added leverage disclosure on 6.24% avg monthly return figure

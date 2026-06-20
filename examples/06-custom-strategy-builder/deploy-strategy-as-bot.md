@@ -24,7 +24,7 @@ Deploy this strategy as a bot on Binance SPOT with $200 USDT per trade.
 
 - `scan_custom_signals` — free live check
 - `backtest_custom_strategy` — validate historically
-- `create_bot_from_strategy` — deploy as a live bot
+- `deploy_strategy_as_bot` — deploy as a live bot
 
 ## Auth Required
 

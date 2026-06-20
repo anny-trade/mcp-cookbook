@@ -54,7 +54,7 @@ Troubleshooting: [setup/verify-connection.md](verify-connection.md)
 - `get_flip_intelligence` — flip confidence scoring
 - `compare_assets` — side-by-side TA comparison
 - `get_institutional_intelligence` — ETF flows, whale activity
-- `get_trading_idea_analysis` — strategy education
+- `get_trading_idea_detail` — strategy education
 
 ## See Also
 

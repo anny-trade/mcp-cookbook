@@ -29,7 +29,7 @@ execute orders — all through plain English.
 - 45 read-only tools work with zero account — no signup, no API key, no credits (the `/v1` endpoint)
 - Most tools cost 0 credits; only backtesting, optimization, and AI chat/research consume credits
 - The FREE tier (no card required) gives 1,000 credits/month for AI conversations
-- Backtesting (`run_cfo_line_backtest`, 100 cr) and optimization (`run_optimizer`, 900 cr) require PRO ($19/mo)
+- Backtesting (`backtest_custom_strategy`, 100 cr) and optimization (`optimize_strategy`, 900 cr) require PRO ($19/mo)
 
 See [docs/CREDIT_COSTS.md](docs/CREDIT_COSTS.md) for the full table.
 
@@ -137,7 +137,7 @@ cookbook. Full methodology: [research/methodology.md](research/methodology.md)
 
 Most tools cost 0 credits (everything except backtesting, optimization, and AI chat/research):
 `get_technical_analysis`, `get_anny_line_status`, `get_flip_intelligence`, `compare_assets`,
-`get_institutional_intelligence`, `get_market_state`, `get_market_analysis`, `run_scenario`,
+`get_institutional_intelligence`, `get_market_state`, `get_market_analysis`, `simulate_scenario`,
 `get_exchange_balance`, `get_open_orders`, `check_symbol_availability`, `execute_market_order`,
 `cancel_order`, `list_active_signals`, `toggle_auto_invest`, `scan_custom_signals`, and 40+ more.
 
@@ -145,10 +145,10 @@ Most tools cost 0 credits (everything except backtesting, optimization, and AI c
 
 | Tool | Credits | Min Tier | Notes |
 |---|---|---|---|
-| `run_cfo_line_backtest` | 100 | PRO | Per run |
+| `backtest_custom_strategy` | 100 | PRO | Per run |
 | `backtest_custom_strategy` | Included in message cost | PRO | Billed as LLM usage |
-| `run_optimizer` | 900 | PRO | Diagnoses + prescribes |
-| `optimize_custom_strategy` | 900 | PRO | Same as optimizer |
+| `optimize_strategy` | 900 | PRO | Diagnoses + prescribes |
+| `optimize_strategy` | 900 | PRO | Same as optimizer |
 
 Monthly allocations: FREE 1,000 cr · PRO $19 5,000 cr · PRO+ $49 50,000 cr
 
