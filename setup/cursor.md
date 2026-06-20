@@ -47,7 +47,7 @@ Troubleshooting: [setup/verify-connection.md](verify-connection.md)
 
 ## Guest Tools (No Login Required)
 
-These 10 tools work without OAuth or PAT — useful for testing the connection:
+45 read-only tools work without OAuth or PAT — useful for testing the connection. A few of them:
 
 - `get_technical_analysis` — RSI, MACD, ADX for any symbol
 - `get_anny_line_status` — CFO Line state + flips

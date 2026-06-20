@@ -26,10 +26,10 @@ execute orders — all through plain English.
 
 **Yes, for most things.**
 
-- 10 tools work with zero account — no signup, no API key, no credits
-- All 56 non-backtest tools are free (0 credits) with any account tier
+- 45 read-only tools work with zero account — no signup, no API key, no credits (the `/v1` endpoint)
+- Most tools cost 0 credits; only backtesting, optimization, and AI chat/research consume credits
 - The FREE tier (no card required) gives 1,000 credits/month for AI conversations
-- Backtesting (`run_cfo_line_backtest`) and optimization (`run_optimizer`) require PRO ($19/mo)
+- Backtesting (`run_cfo_line_backtest`, 100 cr) and optimization (`run_optimizer`, 900 cr) require PRO ($19/mo)
 
 See [docs/CREDIT_COSTS.md](docs/CREDIT_COSTS.md) for the full table.
 
@@ -135,7 +135,7 @@ cookbook. Full methodology: [research/methodology.md](research/methodology.md)
 
 ### Free Tools (0 credits)
 
-All 56 non-backtest tools are free:
+Most tools cost 0 credits (everything except backtesting, optimization, and AI chat/research):
 `get_technical_analysis`, `get_anny_line_status`, `get_flip_intelligence`, `compare_assets`,
 `get_institutional_intelligence`, `get_market_state`, `get_market_analysis`, `run_scenario`,
 `get_exchange_balance`, `get_open_orders`, `check_symbol_availability`, `execute_market_order`,
