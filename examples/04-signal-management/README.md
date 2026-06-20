@@ -1,6 +1,12 @@
-# Signal Management
+# How do I manage my crypto signals and automation in Anny?
 
-List signals, check automation state, toggle auto-invest, and update targets.
+A signal in Anny is a tracked trade idea — an asset, a direction, and entry, target, and
+stop-loss prices. These tools let you list active signals and positions (`list_active_signals`),
+inspect one in detail (`get_signal`), overlay the CFO Anny Line to check regime alignment
+(`analyze_signal_with_cfo`), and control automation: `toggle_auto_invest`, `toggle_auto_stop`,
+and `toggle_auto_sell` flip the flags that decide whether Anny enters, stops out, or takes
+profit for you. `update_signal_target` edits the prices. The toggles and target updates are
+database-only — they change settings, not live exchange orders.
 
 ## Auth Required
 
@@ -25,6 +31,12 @@ Yes
 | [analyze-signal-with-cfo.md](analyze-signal-with-cfo.md) | CFO regime analysis on a signal's asset |
 | [toggle-automation.md](toggle-automation.md) | Enable/disable auto-buy for a specific signal |
 | [update-signal-targets.md](update-signal-targets.md) | Update target and stop-loss prices |
+
+## See Also
+
+- [../03-portfolio-management/README.md](../03-portfolio-management/) — exchange-side balance checks and order placement
+- [../05-cfo-line-backtest/README.md](../05-cfo-line-backtest/) — backtest the CFO Line behind `analyze_signal_with_cfo`
+- [../09-multi-turn-workflows/README.md](../09-multi-turn-workflows/) — fold signals into a portfolio-review workflow
 
 ## DB-Only Note
 

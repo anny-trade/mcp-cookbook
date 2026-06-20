@@ -11,7 +11,7 @@ execute orders — all through plain English.
 
 **MCP server endpoint:** `https://mcp.anny.trade/mcp`
 **Auth:** OAuth 2.1 + PKCE (browser) or Personal Access Token (CLI / Claude Code)
-**Exchanges:** Binance, Bybit, OKX, Kraken, KuCoin, Gate.io, MEXC, and 70+ more via CCXT
+**Exchanges:** 7 supported exchanges — Binance, Bybit, OKX, Kraken, KuCoin, Gate.io, MEXC (80+ available via CCXT)
 
 > **Disclaimer:** Examples and research in this repo are for educational purposes only.
 > Nothing here is financial advice. Backtests are simulations — past performance does not

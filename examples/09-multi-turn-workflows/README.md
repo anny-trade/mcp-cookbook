@@ -1,7 +1,12 @@
-# Multi-Turn Workflows
+# How do I chain Anny's MCP tools into an end-to-end workflow?
 
-End-to-end sessions that combine multiple tools in sequence. These are the most valuable
-use cases — each step's output feeds the next.
+The real value of Anny's MCP comes from combining tools across several turns, where each step's
+output feeds the next. This section documents three complete sessions: a research-to-deploy pipeline
+(scan → backtest → optimize → deploy a live bot), a zero-credit morning briefing (market state →
+CFO scans → signal review), and a monthly portfolio review (signals → scenario stress test →
+synthesis). Each workflow lists the exact tools, turn count, and credit cost so you can reproduce it
+in your own AI client. They assume a connected account; the deploy workflow also needs PRO tier for
+the backtest and optimizer steps.
 
 ## Prerequisites
 
@@ -25,3 +30,9 @@ Each tool is powerful alone. The alpha comes from combining them:
 - **Backtest → Optimize**: Use backtest results to decide if 900 credits is worth spending
 - **Optimize → Deploy**: Create a bot with validated settings, not default parameters
 - **Market state → CFO + Signals**: Ground signal analysis in current macro conditions
+
+## See Also
+
+- [../06-custom-strategy-builder/README.md](../06-custom-strategy-builder/) — build the strategies the deploy workflow validates
+- [../07-strategy-optimization/README.md](../07-strategy-optimization/) — the diagnose step inside the research-to-deploy pipeline
+- [../02-market-intelligence/README.md](../02-market-intelligence/) — the market-state call that opens the morning briefing

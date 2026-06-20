@@ -1,7 +1,11 @@
-# Guest Examples — No Auth Required
+# How do I use Anny's crypto MCP tools without signing in?
 
-These examples work in any MCP-compatible AI client without signing in or creating an account.
-Zero setup required beyond adding the MCP URL.
+You can run a subset of Anny Trade's MCP tools as a guest — no account, no API key, no OAuth.
+Add the MCP URL to any MCP-compatible AI client and you immediately get read-only market
+intelligence: technical analysis, CFO Anny Line states, asset comparisons, institutional flows,
+and `ask_anny`. Guest access is rate-limited (5 requests/minute, 50/day) and excludes anything
+that touches your portfolio or places orders. Sign in for higher limits and the full tool set.
+The examples below all use guest-accessible tools, so they work with zero setup.
 
 ## Tools in This Section
 
@@ -29,3 +33,9 @@ All guest tools: `get_technical_analysis`, `get_anny_line_status`, `get_flip_int
 
 Guest users get 5 requests/minute and 50/day. Sign in for 10 requests/minute (FREE tier).
 All examples in this folder use guest-accessible tools only.
+
+## See Also
+
+- [../02-market-intelligence/README.md](../02-market-intelligence/) — fuller market state once you connect an account
+- [../05-cfo-line-backtest/README.md](../05-cfo-line-backtest/) — backtest the CFO Line you just explored as a guest
+- [../03-portfolio-management/README.md](../03-portfolio-management/) — check balances and place orders after signing in

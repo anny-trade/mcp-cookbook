@@ -73,4 +73,4 @@ Cancel my limit buy order for ETH — order ID 112233445.
 ## See Also
 
 - [list-open-orders.md](list-open-orders.md) — always run this first to get the correct orderId
-- [examples/04-signal-management/cancel-order.md](../04-signal-management/) — cancel signal-linked orders via `cancel_pending_order`
+- [../04-signal-management/toggle-automation.md](../04-signal-management/toggle-automation.md) — manage signal-linked automation and orders (`cancel_pending_order`)

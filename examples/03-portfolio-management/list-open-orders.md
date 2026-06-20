@@ -23,9 +23,14 @@ Yes
 ## What Anny Returns
 
 All pending orders with: order ID, trading pair, side (buy/sell), order type (LIMIT,
-STOP_LOSS_LIMIT, etc.), quantity, price, filled quantity, and creation timestamp.
+STOP_LOSS_LIMIT, etc.), quantity, price, filled quantity, and creation timestamp. Only open
+(unfilled or partially filled) orders are listed — fully filled and cancelled orders drop off,
+so this is a live view of what is still working on the exchange. Compare `quantity` against
+`filled quantity` to see how much of each order has executed so far.
 
 The order ID is required to cancel a specific order — keep note of it if you plan to cancel.
+Without a symbol filter the call returns open orders across every connected exchange; pass a
+pair to narrow it to one market.
 
 ## Expected Response Shape
 

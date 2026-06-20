@@ -1,6 +1,12 @@
-# Custom Strategy Builder
+# How do I build and test a custom crypto trading strategy with Anny?
 
-Build, test, and deploy your own trading strategies using technical indicators.
+You describe a strategy as a set of indicator conditions and Anny backtests it for you. An entry
+is a trigger (a condition that fires on transition, like RSI crossing below 30) plus optional
+confirmations (persistent conditions, like price above EMA 200), with a stop-loss and take-profit
+for risk management. Build it from indicators such as RSI, EMA, SMA, MACD, ADX, ATR, BBANDS, and
+StochRSI, then run `backtest_custom_strategy` to score it against history, or
+`scan_custom_signals` to check whether your conditions are firing right now. Validated strategies
+can be deployed as a live bot — see the deploy example below.
 
 ## How It Works
 
@@ -40,3 +46,9 @@ From testing 702 combinations across 12 assets:
 
 Backtests include: 0.1% fee per side + 0.1% slippage (major assets) or 0.3% (alts).
 Entry at next bar open. Stop-loss priority over take-profit on same-bar conflicts.
+
+## See Also
+
+- [../07-strategy-optimization/README.md](../07-strategy-optimization/) — diagnose and fix a losing custom strategy
+- [../05-cfo-line-backtest/README.md](../05-cfo-line-backtest/) — compare your strategy against the CFO Line baseline
+- [../09-multi-turn-workflows/README.md](../09-multi-turn-workflows/) — the research → backtest → optimize → deploy pipeline

@@ -1,6 +1,14 @@
 # How do I check my crypto balances across all connected exchanges?
 
-Query available balances across all connected exchanges.
+Ask Anny for your balances and it queries every exchange you've connected to your account at once,
+then returns them in a single combined view. "All connected exchanges" means each exchange you've
+linked in Anny — both Full-mode exchanges (where you can also place orders) and Portfolio-mode
+exchanges (balance view only). For each one, `get_exchange_balance` reports your **free** balance
+(available to trade or withdraw) and your **locked** balance (reserved by open orders), so you
+know exactly how much you can actually deploy. Pass an asset filter like `USDT` to see one coin
+across every exchange, or omit it to get all non-zero balances. The response also rolls up a
+`totalFreeUsdt` figure so you can see your total available buying power without adding it up by
+hand.
 
 ## Prompt
 

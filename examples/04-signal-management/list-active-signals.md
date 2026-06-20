@@ -26,6 +26,12 @@ All active signals with: signal ID, asset, direction (long/short), entry price, 
 unrealized P&L (percentage and USDT), stop-loss and target prices, exchange, and automation
 flags (auto-invest, auto-stop, auto-sell enabled/disabled).
 
+The unrealized P&L is marked to the current price, so it moves with the market between calls — a
+positive number means the position is in profit at this moment, not that it has been closed. The
+automation flags tell you, per signal, whether Anny will act on its own: auto-invest controls
+entry, auto-stop the stop-loss, and auto-sell the take-profit. Use the signal ID to drill into
+one position with `get_signal` or to change its targets with `update_signal_target`.
+
 ## Expected Response Shape
 
 ```json

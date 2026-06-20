@@ -36,6 +36,16 @@ Yes
 
 0
 
+## What Anny Returns
+
+A before-and-after view of your whole portfolio under the per-asset shocks you supplied. Anny
+reports total portfolio value before the scenario, the value after, and the change in both USDT
+and percent, plus a risk score for context. The `byAsset` breakdown shows the shock applied to
+each position and its current versus scenario value, and `worstPosition` names the single asset
+that loses the most — usually your largest or most-correlated holding. Because the shocks are
+applied to your real connected positions, the result reflects your actual concentration, not a
+generic model portfolio.
+
 ## Expected Response Shape
 
 ```json

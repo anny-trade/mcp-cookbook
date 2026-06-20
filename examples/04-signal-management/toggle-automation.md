@@ -24,7 +24,12 @@ Yes
 
 Confirmation of the new automation state. `toggle_auto_invest` is a database-only operation —
 it updates the flag that controls whether the bot will automatically enter this signal on the
-next trigger. No order is placed immediately.
+next trigger. No order is placed immediately, and toggling it never cancels or modifies anything
+that is already on the exchange. The change takes effect from the next trigger evaluation, so an
+entry that's already mid-flight is unaffected. The companion toggles behave the same way:
+`toggle_auto_stop` controls automated stop-loss exits and `toggle_auto_sell` controls automated
+take-profit exits, each flipping a setting rather than touching live orders. For exchange-side
+actions, use `cancel_pending_order` or `place_take_profit` instead.
 
 ## Expected Response Shape
 

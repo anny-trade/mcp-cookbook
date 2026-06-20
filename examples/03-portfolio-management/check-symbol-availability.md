@@ -24,10 +24,14 @@ Yes
 
 Whether the asset is available for SPOT trading, which exchange(s) support it, the
 full trading pair (e.g., `DOGE/USDT`), and the minimum order size in both asset units
-and USDT equivalent.
+and USDT equivalent. When more than one connected exchange lists the asset, the response
+shows each so you can pick where to route the order — a coin may trade on one exchange but not
+another, and the minimums often differ between them.
 
 Always run this before `execute_market_order` for assets you haven't traded before.
-Minimum order sizes vary by exchange and asset — ordering below the minimum will fail.
+Minimum order sizes vary by exchange and asset — ordering below the minimum will fail, so
+checking first turns a rejected order into a clean one. It also catches symbols that aren't
+listed at all before you spend a turn on a buy that can't execute.
 
 ## Expected Response Shape
 

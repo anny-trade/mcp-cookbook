@@ -27,7 +27,12 @@ signal's configured timeframe. Returns whether the CFO regime (Accumulate / Wait
 is aligned with the signal direction (long vs short), recent flips, and a summary assessment.
 
 A long signal with the CFO Line in Accumulate state is regime-aligned — the indicator and
-the signal agree. A long signal in Distribute state is a divergence — higher risk.
+the signal agree, which historically is the higher-probability setup. A long signal in Distribute
+state is a divergence — you're buying into measured weakness, so the assessment flags it as higher
+risk. A Wait state is neutral: the trend hasn't committed in either direction, so the signal is
+neither confirmed nor contradicted. Recent flips matter too — a state that just changed is less
+established than one that has held for several bars, so the summary calls out how fresh the
+current reading is before you act on it.
 
 ## Expected Response Shape
 
