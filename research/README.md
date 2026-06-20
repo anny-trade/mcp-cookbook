@@ -1,4 +1,6 @@
-# Research
+# What does Anny's crypto strategy research cover?
+
+> Published: 2026-04-26 — backtest data as of the 2026-04-26 strategy run (702 combinations, 12 assets on Binance spot).
 
 Findings from a systematic strategy research session conducted on 2026-04-26.
 

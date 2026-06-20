@@ -1,4 +1,6 @@
-# Asset Personality Map
+# Which crypto assets suit trend-following vs mean-reversion?
+
+> Published: 2026-04-26 — backtest data as of the 2026-04-26 strategy run (702 combinations, 12 assets on Binance spot).
 
 Each asset has a distinct strategy profile. No single strategy type dominates across all assets.
 Use this map to choose the right starting strategy when setting up backtests.

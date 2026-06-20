@@ -1,4 +1,6 @@
-# Strategy Rankings — 1h Timeframe
+# Which crypto trading strategies ranked best on the 1h timeframe?
+
+> Published: 2026-04-26 — backtest data as of the 2026-04-26 strategy run (702 combinations, 12 assets on Binance spot).
 
 The 1h timeframe tells a different story. Most trend-following strategies degrade sharply
 when applied to intraday data.

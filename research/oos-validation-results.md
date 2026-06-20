@@ -1,4 +1,6 @@
-# Out-of-Sample Validation Results
+# Do these crypto strategies hold up out-of-sample?
+
+> Published: 2026-04-26 — backtest data as of the 2026-04-26 strategy run (702 combinations, 12 assets on Binance spot).
 
 All OOS results use a strict train/test split: 80% in-sample for optimization, 20% held out
 for validation. A positive OOS return means the strategy generalized to unseen data — the

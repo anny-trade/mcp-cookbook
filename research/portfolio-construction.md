@@ -1,4 +1,6 @@
-# Portfolio Construction
+# How do I build a crypto portfolio from these backtested strategies?
+
+> Published: 2026-04-26 — backtest data as of the 2026-04-26 strategy run (702 combinations, 12 assets on Binance spot).
 
 Building a diversified portfolio from CFO Line strategies using signal correlation filtering
 and Sharpe-weighted allocation.

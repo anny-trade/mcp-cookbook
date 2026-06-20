@@ -1,4 +1,6 @@
-# CFO Line Regime Analysis
+# How does the CFO Anny Line perform across market regimes?
+
+> Published: 2026-04-26 — backtest data as of the 2026-04-26 strategy run (702 combinations, 12 assets on Binance spot).
 
 Walk-forward analysis breaks the dataset into market regimes (Accumulate / Wait / Distribute)
 and optimizes each regime separately, then validates on out-of-regime data.

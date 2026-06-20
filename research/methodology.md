@@ -1,4 +1,6 @@
-# Methodology
+# How were these crypto strategy backtests run and validated?
+
+> Published: 2026-04-26 — backtest data as of the 2026-04-26 strategy run (702 combinations, 12 assets on Binance spot).
 
 ## Overview
 

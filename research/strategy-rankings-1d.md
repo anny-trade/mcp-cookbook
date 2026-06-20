@@ -1,4 +1,6 @@
-# Strategy Rankings — 1d Timeframe
+# Which crypto trading strategies ranked best on the 1d timeframe?
+
+> Published: 2026-04-26 — backtest data as of the 2026-04-26 strategy run (702 combinations, 12 assets on Binance spot).
 
 Rankings from 702 combinations. All tested with real Binance data, 0.1% fee + 0.1% slippage.
 
